@@ -1,0 +1,18 @@
+Description:
+------------
+
+LLM : ChatGroq
+
+	model_name = llama-3.2-90b-text-preview
+
+...............................................
+
+Embeddings: HuggingFaceEmbeddings
+
+	model_name = all-MiniLM-L6-v2
+
+...............................................
+
+Vector Index : ChromaDB
+
+...............................................
