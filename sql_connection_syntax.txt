@@ -1,0 +1,17 @@
+--------------------------------
+
+To know about sql connection: 
+
+https://python.langchain.com/v0.2/api_reference/experimental/sql.html
+
+--------------------------------
+
+Syntax for sql connection:
+
+db_user = "root"
+db_password = "---"  # Replace with your actual password
+db_host = "---"  # Using the hostname you provided
+db_port = "---"  # Port number for MySQL
+db_name = "table_name"
+
+db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}", sample_rows_in_table_info=3)
